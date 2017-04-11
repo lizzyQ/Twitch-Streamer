@@ -1,0 +1,66 @@
+body{
+  background-color:#e6dced;
+  padding:20px;
+}
+a{ color:#131208; }
+.container{
+  background-color:#fff;
+  box-shadow:2px 3px 3px #978caa;
+  padding:20px;
+}
+.header{
+  background: url('https://www.userlogos.org/files/logos/Deva/twitch1.png') no-repeat left -30px;
+  background-size: 180px 100px;
+}
+.nav{ margin: 20px 0;}
+.nav li{ padding:0;}
+.nav li a{ position:relative; font-weight:600; }
+.nav li a:hover,
+.nav li a:focus{
+  background-color:transparent;
+  border:none;
+}
+.nav li a:after{
+  position:absolute;
+  content:"";
+  width:0;
+  height:3px;
+  left:0;
+  bottom:0;
+  background-color:#b2b6f9;
+  transition:width 0.2s;
+}
+.nav li a:hover:after,
+.active .nav-link:after{
+  width:100%;
+}
+.list-group a{
+  display:block;
+  margin-bottom:20px;
+  position:relative;
+}
+.list-group a:hover{
+  cursor:pointer;
+  text-decoration:none;
+}
+a[href^="javascript"]:hover{
+  cursor:not-allowed;
+}
+.avatar{
+  width:50px;
+  position:absolute;
+  left:2%;
+  top:20%;
+}
+.con-box{
+  margin-left:60px;
+  margin-right:20px;
+}
+.glyphicon-refresh,
+.glyphicon-remove,
+.glyphicon-alert{ 
+  font-size:20px; 
+  position:absolute;
+  right:2%;
+  top:35%;
+}

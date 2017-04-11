@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Twitch Streamer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <body>
+  <div class="container">
+    <div class="row header">
+      <div class="col-xs-7 pull-right">
+        <div class="input-group">
+             <input type="text" class="form-control" placeholder="Channel name">
+            <span class="input-group-btn">
+              <button class="btn btn-default" type="button">
+                 <span class="glyphicon glyphicon-search"></span>
+              </button>
+            </span>
+        </div><!--input group over-->
+      </div><!--col-xs-7 over-->
+    </div><!--header row over-->
+   <ul class="row nav text-center">
+        <li class="col-xs-4 nav-item bg-success active">
+          <a class="nav-link" href="#" id="all">All</a>
+        </li>
+        <li class="col-xs-4 nav-item bg-info">
+          <a class="nav-link" href="#" id="online">Online</a>
+        </li>
+        <li class="col-xs-4 nav-item bg-warning">
+          <a class="nav-link" href="#" id="offline">Offline</a>
+        </li>
+  </ul>
+   <div class="row">
+     <div class="col-xs-12" id="demo">
+        <ul class="list-group">
+
+        </ul>
+     </div><!--col over-->
+   </div> <!--row over-->
+  </div><!--container over-->
+</body>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src="js/index.js"></script>
+
+</body>
+</html>
